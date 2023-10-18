@@ -1,0 +1,101 @@
+.container {
+    padding: 20px;
+}
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+    border-radius: 10px; /* Adiciona o border-radius para as bordas arredondadas */
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 4.9px;
+    text-align: center;
+}
+
+th {
+    background-color: #0f8d90;
+}
+
+tr:nth-child(even) {
+    background-color: #0adbdf;
+}
+
+.cont1 {
+    max-width: 1000px;
+    height: 750px;
+    margin-top: 1730px;
+}
+
+.navbar a:hover {
+    color: #0adbdf;
+    transition: color 0.2s;
+}
+
+.home:hover {
+    background-color: #0adbdf;
+    transition: all 0.4s;
+} 
+
+.pp1 {
+    margin-top: 700px;
+}
+
+.cont2 {
+    margin-top: 700px;
+    max-width: 600px;
+}
+
+.cont2 h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.cont2 p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.redesSociais {
+    margin-top: 190px;
+    width: 100%;
+    height: 150px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemSocial {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0adbdf;
+    transition: all 0.5s;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.itemSocial:hover {
+    transform: scale(1.3);
+    color: rgb(255, 255, 255);
+    background-color: #0f8d90;
+}
+
+.itemzin {
+    position: absolute;
+    top: 30px;
+    left: 66px;
+    width: 100px;
+    scale: 2;
+}
+
+.linha {
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+    z-index: 5;
+}

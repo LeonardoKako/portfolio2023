@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Cubano';
+    src: url('/assets/Cubano/Cubano.ttf') format('truetype');
+    /* Adicione outros formatos de fonte, se disponíveis */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cubano', sans-serif;
+    background-color: #f8f4f4;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+
+    top: 30px;
+    right: 0;
+    border-radius: 70px 0px 0px 70px     ;
+    height: 55px;
+    width: 100%;
+    max-width: 860px;
+
+    transition: top 0.4s;
+
+    -webkit-box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar li {
+    margin: 2px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home {
+    background: #333;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+
+    right: -40px;
+    top: -5px;
+    border: 5px solid white;
+    border-radius: 70px;
+    width: 190px;
+    height: 56px;
+
+    transition: top 0.4s;
+
+    -webkit-box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+}
+
+.home p {
+    color: white;
+    font-size: 28px;
+    margin: 9px
+}
+
+.home:hover {
+    background-color: #0adbdf;
+    transition: all 0.4s;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#section2 {
+    position: relative;
+    height: 960px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    border: #262626 solid 2px;
+
+    border-radius: 30px;
+    
+    top: 260px;
+    width: 100%;
+    max-width: 900px;
+    height: 670px;
+    
+    -webkit-box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+    box-shadow: 0px 0px 43px 6px rgba(0,0,0,0.27);
+}
+
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.container h1 {
+    color: #262626;
+}
+.trabalhos a {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 13px;
+    padding: 5px 5px 15px 5px;
+    font-size: 40px;
+    border: #262626 solid 1px;
+    border-radius: 30px;
+    color: #262626;
+    transition: all 0.2s;
+}
+
+.partePreta {
+    background-color: #262626;
+    position: absolute;
+    
+    top: 147px;
+    width: 100%;
+    height: 80px;
+}
+
+.main_footer_copy       { background-color:#262626; width:100%; float:left; text-align:center; padding:1.5em 0em; }
+.main_footer_copy p     { font-family:'Cubano'; font-size:1em; color:#e1e0e0; height:30px; margin: 0;}
+.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
+.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#ffffff; }
